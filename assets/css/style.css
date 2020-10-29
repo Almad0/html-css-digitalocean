@@ -1,5 +1,11 @@
 body [class*="col-"] {
-  height: 60px;
+  height: 100px;
   border: 1px solid red;
   background-color: #7b5ab1;
+}
+
+
+.container-sm{
+  width: 80%;
+  margin: auto;
 }
