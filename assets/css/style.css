@@ -54,7 +54,23 @@ a{
 }
 
 
-.navbar{
+
+
+
+
+.navbar .navbar-header img{
+  height: 30px;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+/* .navbar{
   height: 50px;
 }
 
@@ -73,7 +89,7 @@ a{
 
 .navbar li a{
   padding: 0 10px;
-}
+} */
 
 
 
