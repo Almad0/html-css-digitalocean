@@ -1,7 +1,46 @@
-body [class*="col-"] {
+/* body [class*="col-"] {
   height: 100px;
   border: 1px solid red;
   background-color: #7b5ab1;
+} */
+
+
+.body{
+  padding-top: 70px;
+}
+
+/* UTILITY */
+.mt-20{
+  margin-top: 20px;
+}
+.mb-20{
+  margin-bottom: 20px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+/* COLORI */
+.text_white{
+  color: white;
+}
+.bg_lightgrey{
+  background-color: lightgrey;
+}
+.bg_darkblue{
+  background-color: #010E28;
+
+}
+.bg_lightblue{
+  background-color: #006AFF;
+}
+.bg_blue{
+  background-color: #1633FF;
+}
+.bg_white{
+  background-color: white;
 }
 
 
@@ -9,3 +48,74 @@ body [class*="col-"] {
   width: 80%;
   margin: auto;
 }
+
+.card{
+  padding: 15px;
+}
+
+
+.navbar{
+  height: 50px;
+}
+
+.navbar img{
+  height: 35px;
+}
+
+.navbar .row [class*="col-"] ul{
+  list-style: none;
+}
+
+.navbar .row [class*="col-"] ul li{
+  display: inline-block;
+  line-height: 40px;
+}
+
+.navbar li a{
+  padding: 0 10px;
+}
+
+
+
+
+
+
+
+.jumbotron{
+  height: 500px;
+  background-image: url('../img/bgpesce.svg');
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn img{
+  height: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FINE */
