@@ -4,7 +4,9 @@
   background-color: #7b5ab1;
 } */
 
-
+body{
+  font-family: 'Roboto', sans-serif;
+}
 
 
 /* UTILITY */
@@ -71,41 +73,11 @@ a{
 
 
 
-/* .navbar .navbar-header img{
-  max-height: 30px;
-  margin-top: 10px;
-} */
-
-/* .navbar{
-  height: 50px;
-}
-
-.navbar img{
-  height: 35px;
-}
-
-.navbar .row [class*="col-"] ul{
-  list-style: none;
-}
-
-.navbar .row [class*="col-"] ul li{
-  display: inline-block;
-  line-height: 40px;
-}
-
-.navbar li a{
-  padding: 0 10px;
-}
-
- */
-
-
-
 
 
 /* JUMBO */
 .jumbotron{
-  height: 500px;
+  min-height: 500px;
   background-image: url('../img/bgpesce.svg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -114,6 +86,9 @@ a{
 .jumbotron .card{
   padding: 10px 20px 20px;
   border-radius: 5px;
+}
+.jumbotron h2{
+  margin: 2rem 0;
 }
 .jumbotron .form .btn img{
   height: 20px;
@@ -124,15 +99,30 @@ a{
 
 
 #corp ul li{
-  padding: 20px;
+  padding: 10px;
 }
 
 
 
 
 
+#deploy ul{
+  list-style: none;
+  margin-top: 20px;
+  color: lightgrey;
+  border-left: 2px solid;
+  padding-left: 1rem;
+}
 
+#deploy ul li{
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 4rem;
+}
 
+#deploy .row{
+  margin: 20px 0;
+}
 
 
 
