@@ -10,35 +10,53 @@ body{
 
 
 /* UTILITY */
-
+.p-40{
+  padding: 40px;
+}
+.p-30{
+  padding: 30px;
+}
 .p-20{
   padding: 20px;
 }
 
-
 .m-50{
   margin: 50px auto;
 }
+.m-40{
+  margin: 40px auto;
+}
+.m-30{
+  margin: 30px auto;
+}
+.m-20{
+  margin: 20px auto;
+}
 
-
-
-.mt-20{
-  margin-top: 20px;
+.mt-40{
+  margin-top: 40px;
 }
 .mt-30{
   margin-top: 30px;
 }
-.mt-40{
-  margin-top: 40px;
+.mt-20{
+  margin-top: 20px;
+}
+
+.mb-40{
+  margin-bottom: 40px;
+}
+.mb-30{
+  margin-bottom: 30px;
 }
 .mb-20{
   margin-bottom: 20px;
 }
+
 a{
   text-decoration: none;
   color: black;
 }
-
 
 /* COLORI */
 .text_white{
@@ -65,12 +83,11 @@ a{
 }
 
 
+
 .container-sm{
   width: 80%;
   margin: auto;
 }
-
-
 
 
 
@@ -94,17 +111,10 @@ a{
   height: 20px;
 }
 
-
-
-
-
+/* MAIN SECTION */
 #corp ul li{
   padding: 10px;
 }
-
-
-
-
 
 #deploy ul{
   list-style: none;
@@ -113,31 +123,27 @@ a{
   border-left: 2px solid;
   padding-left: 1rem;
 }
-
 #deploy ul li{
   font-size: 18px;
   font-weight: bold;
   line-height: 4rem;
 }
-
 #deploy .row{
   margin: 20px 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#designed img{
+  width: 100%;
+}
+#designed i{
+  font-size: 5rem;
+  margin-top: 50%;
+}
+#designed [class*="col-"]:first-child {
+  text-align: right;
+}
+#designed [class*="col-"]:last-child {
+  text-align: left;
+}
 
 /* FINE */
