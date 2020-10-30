@@ -5,13 +5,29 @@
 } */
 
 
-.body{
-  padding-top: 70px;
-}
+
 
 /* UTILITY */
+
+.p-20{
+  padding: 20px;
+}
+
+
+.m-50{
+  margin: 50px auto;
+}
+
+
+
 .mt-20{
   margin-top: 20px;
+}
+.mt-30{
+  margin-top: 30px;
+}
+.mt-40{
+  margin-top: 40px;
 }
 .mb-20{
   margin-bottom: 20px;
@@ -26,8 +42,11 @@ a{
 .text_white{
   color: white;
 }
+.text_blue{
+  color: #0069FF;
+}
 .bg_lightgrey{
-  background-color: lightgrey;
+  background-color: #F3F5F9;
 }
 .bg_darkblue{
   background-color: #010E28;
@@ -49,26 +68,13 @@ a{
   margin: auto;
 }
 
-.card{
-  padding: 15px;
-}
 
 
 
-
-
-
-.navbar .navbar-header img{
-  height: 30px;
+/* .navbar .navbar-header img{
+  max-height: 30px;
   margin-top: 10px;
-}
-
-
-
-
-
-
-
+} */
 
 /* .navbar{
   height: 50px;
@@ -89,27 +95,37 @@ a{
 
 .navbar li a{
   padding: 0 10px;
-} */
+}
+
+ */
 
 
 
 
 
-
-
+/* JUMBO */
 .jumbotron{
   height: 500px;
   background-image: url('../img/bgpesce.svg');
-  opacity: 0.8;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 0;
 }
-
-.btn img{
+.jumbotron .card{
+  padding: 10px 20px 20px;
+  border-radius: 5px;
+}
+.jumbotron .form .btn img{
   height: 20px;
-
 }
 
+
+
+
+
+#corp ul li{
+  padding: 20px;
+}
 
 
 
