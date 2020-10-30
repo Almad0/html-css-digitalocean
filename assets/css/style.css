@@ -132,18 +132,46 @@ a{
   margin: 20px 0;
 }
 
-#designed img{
+#designed img, #develop img{
   width: 100%;
 }
-#designed i{
+#designed i, #develop i{
   font-size: 5rem;
   margin-top: 50%;
 }
-#designed [class*="col-"]:first-child {
+#designed [class*="col-"]:first-child, #develop [class*="col-"]:first-child {
   text-align: right;
 }
-#designed [class*="col-"]:last-child {
+#designed [class*="col-"]:last-child, #develop [class*="col-"]:last-child {
   text-align: left;
 }
+
+
+#service, #started {
+  background-color:#1633FF;
+  background-image: linear-gradient(#1633FF, #0015ac);
+}
+
+#started h2{
+  margin-top: 0;
+}
+
+#started button{
+  color: #1633FF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* FINE */
