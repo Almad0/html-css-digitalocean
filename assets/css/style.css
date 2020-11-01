@@ -55,7 +55,7 @@ body{
 
 a{
   text-decoration: none;
-  color: black;
+  color: #71e6ff;
 }
 
 /* COLORI */
@@ -64,6 +64,9 @@ a{
 }
 .text_blue{
   color: #0069FF;
+}
+.text_lightgrey{
+  color: lightgrey;
 }
 .bg_lightgrey{
   background-color: #F3F5F9;
@@ -82,15 +85,12 @@ a{
   background-color: white;
 }
 
-
-
 .container-sm{
   width: 80%;
   margin: auto;
 }
 
-
-
+/* NAVBAR */
 
 /* JUMBO */
 .jumbotron{
@@ -146,25 +146,26 @@ a{
   text-align: left;
 }
 
-
 #service, #started {
   background-color:#1633FF;
   background-image: linear-gradient(#1633FF, #0015ac);
 }
-
 #started h2{
   margin-top: 0;
 }
-
 #started button{
   color: #1633FF;
 }
 
-
-
-
-
-
+#service [class*="col-"] .row:not(:last-child){
+  border-bottom: 1px solid white;
+}
+#service .row>.col-lg-6{
+  padding-right: 50px;
+}
+#service .row{
+  margin-top: 10px;
+}
 
 
 
