@@ -1,13 +1,7 @@
-/* body [class*="col-"] {
-  height: 100px;
-  border: 1px solid red;
-  background-color: #7b5ab1;
-} */
-
 body{
   font-family: 'Roboto', sans-serif;
+  margin-top: 30px;
 }
-
 
 /* UTILITY */
 .p-40{
@@ -31,6 +25,9 @@ body{
 }
 .m-20{
   margin: 20px auto;
+}
+.m-0{
+  margin: 0;
 }
 
 .mt-40{
@@ -94,13 +91,30 @@ a{
 }
 
 /* NAVBAR */
+.navbar .row img{
+  height: 55px;
+  padding: 15px 0;
+}
+.navbar ul li{
+  line-height: 55px;
+}
+.navbar a{
+  text-decoration: none;
+  color: black;
+}
+.navbar .hamburger{
+  display: none;
+  margin: 10px 0;
+
+}
 
 /* JUMBO */
 .jumbotron{
   min-height: 500px;
-  background-image: url('../img/bgpesce.svg');
+  background-image: url('../img/BgJumbo.svg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: right;
   margin-bottom: 0;
 }
 .jumbotron .card{
@@ -133,6 +147,9 @@ a{
 }
 #deploy .row{
   margin: 20px 0;
+}
+#deploy .card{
+  height: 150px;
 }
 
 #designed img, #develop img{
@@ -170,9 +187,7 @@ a{
   margin-top: 10px;
 }
 
-
 /* FOOTER */
-
 #site_footer h5{
   font-size: 18px;
 }
@@ -180,13 +195,10 @@ a{
   width: 50px;
   padding: 10px 0;
 }
-
-
 #site_footer ul li i{
   font-size: 2.5rem;
   padding: 10px 10px 0 0;
 }
-
 #site_footer .col-lg-8 ul li{
   line-height: 3rem;
 
@@ -196,28 +208,22 @@ a{
   color: lightgrey;
 }
 
-
-
-
-/* .bot{
-  display: inline-block;
-}
-
-.baloon{
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  transform: translate(-50%, -50%);
-} */
-
-
+/* HELPBOT */
 .bot{
   position: fixed;
   bottom: 30px;
   right: 80px;
 }
-
-
+.bot img{
+  height: 50px;
+  margin-left: 20px;
+  background-color: #006AFF;
+  border-radius: 5px;
+  padding: 5px;
+}
+.bot p{
+  margin: 0;
+}
 .bubble{
   display: inline-block;
   position: relative;
@@ -228,7 +234,6 @@ a{
   border-radius: 10px;
   border: #2F2E2E solid 3px;
 }
-
 .bubble:after{
   content: '';
   position: absolute;
@@ -238,10 +243,10 @@ a{
   display: block;
   width: 0;
   z-index: 1;
-  right: -20px;
-  top: 82px;
+  right: -19px;
+  top: 9px;
 }
-
+/* Bordo della freccia */
 .bubble:before{
   content: '';
   position: absolute;
@@ -251,15 +256,30 @@ a{
   display: block;
   width: 0;
   z-index: 0;
-  right: -25px;
-  top: 80px;
+  right: -24px;
+  top: 7px;
 }
 
 
+@media all and (max-width: 768px){
+  .navbar .hamburger{
+    display: inline-block;
+  }
 
+  #deploy .card{
+    height: 100%;
+  }
+}
 
+@media all and (min-width: 769px) and (max-width: 1199px){
+  .navbar .hamburger{
+    display: inline-block;
+  }
 
-
+  #deploy .card{
+    height: 200px;
+  }
+}
 
 
 /* FINE */
